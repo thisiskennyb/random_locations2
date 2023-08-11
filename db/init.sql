@@ -1,3 +1,6 @@
+create database location_db;
+\connect location_db;
+
 create table locations (
 	id INT,
 	lon VARCHAR(50),

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PeopleGetter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Random Location</h1>
+    </header>
+
+    <main>
+        <button id="listBtn">Get Everyone</button>
+        <div id="listContainer"></div>
+
+        <div class="dropdown">
+          <label for="userSelect" id="userDropdownBtn">Get Someone</label>
+            <div id="userDropdownContent">
+                <select id="userSelect">
+                    <option value="">-- Select a number --</option>
+                    <!-- Generate options dynamically using JavaScript -->
+                </select>
+            </div>
+            <div id="userContainer"></div>
+            <div id="map"></div>
+        </div>
+    </main>
+</body>
+</html>
