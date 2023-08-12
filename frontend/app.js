@@ -1,5 +1,5 @@
 window.onload = () => {
-  const baseUrl = "http://127.0.0.1:8000";
+  const baseUrl = "http://18.219.200.47:8000";
   const userContainer = document.querySelector("#userContainer");
   const mapContainer = document.querySelector("#map");
 
